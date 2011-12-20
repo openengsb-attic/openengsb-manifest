@@ -7,6 +7,7 @@
   <project path="bundle" name="openengsb" remote="openengsb" revision="master" />
   <project path="framework" name="openengsb-framework" remote="openengsb" revision="v2.x.y" />
   <project path="tooling/maven-plugin" name="openengsb-maven-plugin" remote="openengsb" revision="v2.x.y" />
+  <project path="tooling/manual-builder-resources" name="openengsb-manual-builder-resources" remote="openengsb" revision="master" />
   <project path="homepage" name="homepage" remote="openengsb" revision="master" />
 
   <!-- OpenEngSB Domain -->
