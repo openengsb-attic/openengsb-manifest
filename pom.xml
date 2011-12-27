@@ -50,6 +50,8 @@
 
   <modules>
     <!-- Tooling -->
+    <module>tooling/manual-builder-resources</module>
+    <module>tooling/assembly-builder-resources</module>
     <module>tooling/maven-plugin</module>
     <!-- Core -->
     <module>root</module>
