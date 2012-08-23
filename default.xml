@@ -5,13 +5,14 @@
   <!-- OpenEngSB Core -->
   <project path="root" name="openengsb-root" remote="openengsb" revision="master" />
   <project path="bundle" name="openengsb" remote="openengsb" revision="master" />
-  <project path="framework" name="openengsb-framework" remote="openengsb" revision="v2.x.y" />
+  <project path="framework" name="openengsb-framework" remote="openengsb" revision="master" />
   <project path="tooling/manual-builder-resources" name="openengsb-manual-builder-resources" remote="openengsb" revision="master" />
   <project path="tooling/assembly-builder-resources" name="openengsb-assembly-builder-resources" remote="openengsb" revision="master" />
-  <project path="tooling/maven-plugin" name="openengsb-maven-plugin" remote="openengsb" revision="v2.x.y" />
+  <project path="tooling/maven-plugin" name="openengsb-maven-plugin" remote="openengsb" revision="master" />
   <project path="homepage" name="homepage" remote="openengsb" revision="master" />
 
   <!-- OpenEngSB Domain -->
+  <project path="domains/requirement" name="openengsb-domain-requirement" remote="openengsb" revision="master" />
   <project path="domains/scm" name="openengsb-domain-scm" remote="openengsb" revision="master" />
   <project path="domains/issue" name="openengsb-domain-issue" remote="openengsb" revision="master" />
   <project path="domains/report" name="openengsb-domain-report" remote="openengsb" revision="master" />
@@ -39,6 +40,7 @@
   <project path="connectors/xmpp" name="openengsb-connector-xmpp" remote="openengsb" revision="master" />
   <project path="connectors/twitter" name="openengsb-connector-twitter" remote="openengsb" revision="master" />
   <project path="connectors/mantis" name="openengsb-connector-mantis" remote="openengsb" revision="master" />
+  <project path="connectors/msnotification" name="openengsb-connector-msnotification" remote="openengsb" revision="master" />
 
 </manifest>
 

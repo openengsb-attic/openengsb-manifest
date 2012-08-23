@@ -64,6 +64,7 @@
     <module>domains/issue</module>
     <module>domains/notification</module>
     <module>domains/report</module>
+    <module>domains/requirement</module>
     <module>domains/scm</module>
     <module>domains/test</module>
     <!-- Connectors -->
@@ -79,6 +80,7 @@
     <module>connectors/plaintextreport</module>
     <module>connectors/promreport</module>
     <module>connectors/trac</module>
+    <module>connectors/msnotification</module>
     <!-- Bundle -->
     <module>bundle</module>
   </modules>
