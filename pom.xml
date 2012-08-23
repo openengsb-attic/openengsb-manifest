@@ -80,7 +80,6 @@
     <module>connectors/plaintextreport</module>
     <module>connectors/promreport</module>
     <module>connectors/trac</module>
-    <module>connectors/msnotification</module>
     <!-- Bundle -->
     <module>bundle</module>
   </modules>
