@@ -5,6 +5,14 @@
   <!-- OpenEngSB Core -->
   <project path="root" name="openengsb-root" remote="openengsb" revision="master" />
   <project path="bundle" name="openengsb" remote="openengsb" revision="master" />
+  
+  <project path="api/framework" name="openengsb-api" remote="openengsb" revision="master" />
+  <project path="test" name="openengsb-test" remote="openengsb" revision="master" />
+  <project path="api/workflow" name="openengsb-workflow-api" remote="openengsb" revision="master" />
+  <project path="api/edb" name="openengsb-edb-api" remote="openengsb" revision="master" />
+  <project path="api/ekb" name="openengsb-ekb-api" remote="openengsb" revision="master" />
+  <project path="api/ui" name="openengsb-ui-api" remote="openengsb" revision="master" />
+
   <project path="framework" name="openengsb-framework" remote="openengsb" revision="master" />
   <project path="tooling/manual-builder-resources" name="openengsb-manual-builder-resources" remote="openengsb" revision="master" />
   <project path="tooling/assembly-builder-resources" name="openengsb-assembly-builder-resources" remote="openengsb" revision="master" />
