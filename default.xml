@@ -16,39 +16,7 @@
   <project path="framework" name="openengsb-framework" remote="openengsb" revision="master" />
   <project path="tooling/manual-builder-resources" name="openengsb-manual-builder-resources" remote="openengsb" revision="master" />
   <project path="tooling/assembly-builder-resources" name="openengsb-assembly-builder-resources" remote="openengsb" revision="master" />
-  <project path="tooling/maven-plugin" name="openengsb-maven-plugin" remote="openengsb" revision="master" />
   <project path="homepage" name="homepage" remote="openengsb" revision="master" />
-
-  <!-- OpenEngSB Domain -->
-  <project path="domains/requirement" name="openengsb-domain-requirement" remote="openengsb" revision="master" />
-  <project path="domains/scm" name="openengsb-domain-scm" remote="openengsb" revision="master" />
-  <project path="domains/issue" name="openengsb-domain-issue" remote="openengsb" revision="master" />
-  <project path="domains/report" name="openengsb-domain-report" remote="openengsb" revision="master" />
-  <project path="domains/notification" name="openengsb-domain-notification" remote="openengsb" revision="master" />
-  <project path="domains/test" name="openengsb-domain-test" remote="openengsb" revision="master" />
-  <project path="domains/build" name="openengsb-domain-build" remote="openengsb" revision="master" />
-  <project path="domains/deploy" name="openengsb-domain-deploy" remote="openengsb" revision="master" />
-  <project path="domains/contact" name="openengsb-domain-contact" remote="openengsb" revision="master" />
-  <project path="domains/appointment" name="openengsb-domain-appointment" remote="openengsb" revision="master" />
-
-  <!-- OpenEngSB Connector -->
-  <project path="connectors/git" name="openengsb-connector-git" remote="openengsb" revision="master" />
-  <project path="connectors/jira" name="openengsb-connector-jira" remote="openengsb" revision="master" />
-  <project path="connectors/github" name="openengsb-connector-github" remote="openengsb" revision="master" />
-  <project path="connectors/trac" name="openengsb-connector-trac" remote="openengsb" revision="master" />
-  <project path="connectors/plaintextreport" name="openengsb-connector-plaintextreport" remote="openengsb" revision="master" />
-  <project path="connectors/promreport" name="openengsb-connector-promreport" remote="openengsb" revision="master" />
-  <project path="connectors/facebook" name="openengsb-connector-facebook" remote="openengsb" revision="master" />
-  <project path="connectors/email" name="openengsb-connector-email" remote="openengsb" revision="master" />
-  <project path="connectors/notificationsample" name="openengsb-connector-notificationsample" remote="openengsb" revision="master" />
-  <project path="connectors/maven" name="openengsb-connector-maven" remote="openengsb" revision="master" />
-  <project path="connectors/gcontacts" name="openengsb-connector-gcontacts" remote="openengsb" revision="master" />
-  <project path="connectors/gcalendar" name="openengsb-connector-gcalendar" remote="openengsb" revision="master" />
-  <project path="connectors/extendedjira" name="openengsb-connector-extendedjira" remote="openengsb" revision="master" />
-  <project path="connectors/xmpp" name="openengsb-connector-xmpp" remote="openengsb" revision="master" />
-  <project path="connectors/twitter" name="openengsb-connector-twitter" remote="openengsb" revision="master" />
-  <project path="connectors/mantis" name="openengsb-connector-mantis" remote="openengsb" revision="master" />
-  <project path="connectors/msnotification" name="openengsb-connector-msnotification" remote="openengsb" revision="master" />
 
 </manifest>
 
