@@ -25,7 +25,7 @@
   <groupId>org.openengsb</groupId>
   <artifactId>openengsb-ueberpom</artifactId>
   <packaging>pom</packaging>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>1</version>
   <name>OpenEngSB :: Ueberpom</name>
 
   <description>
@@ -52,34 +52,19 @@
     <!-- Tooling -->
     <module>tooling/manual-builder-resources</module>
     <module>tooling/assembly-builder-resources</module>
-    <module>tooling/maven-plugin</module>
     <!-- Core -->
-    <module>root</module>
+    <module>parents/root</module>
+    <module>parents/domain</module>
+    <module>parents/connector</module>
+    <module>parents/wrapped</module>
+    <module>api/framework</module>
+    <module>api/workflow</module>
+    <module>api/edb</module>
+    <module>api/ekb</module>
+    <module>api/ui</module>
     <module>framework</module>
-    <!-- Domains -->
-    <module>domains/appointment</module>
-    <module>domains/build</module>
-    <module>domains/contact</module>
-    <module>domains/deploy</module>
-    <module>domains/issue</module>
-    <module>domains/notification</module>
-    <module>domains/report</module>
-    <module>domains/requirement</module>
-    <module>domains/scm</module>
-    <module>domains/test</module>
-    <!-- Connectors -->
-    <module>connectors/email</module>
-    <module>connectors/facebook</module>
-    <module>connectors/gcalendar</module>
-    <module>connectors/gcontacts</module>
-    <module>connectors/git</module>
-    <module>connectors/github</module>
-    <module>connectors/jira</module>
-    <module>connectors/maven</module>
-    <module>connectors/notificationsample</module>
-    <module>connectors/plaintextreport</module>
-    <module>connectors/promreport</module>
-    <module>connectors/trac</module>
+    <!-- Loom -->
+    <module>loom/java</module>
     <!-- Bundle -->
     <module>bundle</module>
   </modules>
