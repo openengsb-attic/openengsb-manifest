@@ -29,13 +29,13 @@
   <project path="loom/ide" name="loom-ide" remote="openengsb" revision="master" />
 
   <project path="wrapped/Apache.NMS.ActiveMQ" name="openengsb-wrapped-csharp-Apache.NMS.ActiveMQ" remote="openengsb" revision="master" />
-  <project path="tooling/Apache.NMS.API" name="openengsb-wrapped-csharp-Apache.NMS.API" remote="openengsb" revision="master" />
-  <project path="tooling/com.google.protobuf" name="openengsb-wrapped-com.google.protobuf" remote="openengsb" revision="master" />
-  <project path="tooling/javax.enterprise.cdi-api" name="openengsb-wrapped-javax.enterprise.cdi-api" remote="openengsb" revision="master" />
-  <project path="tooling/codeplex.newton.json" name="openengsb-wrapped-csharp-codeplex.newton.json" remote="openengsb" revision="master" />
-  <project path="tooling/codeplex.fastjson" name="openengsb-wrapped-csharp-codeplex.fastjson" remote="openengsb" revision="master" />
-  <project path="tooling/Apache.log4net" name="openengsb-wrapped-csharp-Apache.log4net" remote="openengsb" revision="master" />
-  <project path="tooling/net.sourceforge.htmlunit" name="openengsb-wrapped-net.sourceforge.htmlunit" remote="openengsb" revision="master" />
+  <project path="wrapped/Apache.NMS.API" name="openengsb-wrapped-csharp-Apache.NMS.API" remote="openengsb" revision="master" />
+  <project path="wrapped/com.google.protobuf" name="openengsb-wrapped-com.google.protobuf" remote="openengsb" revision="master" />
+  <project path="wrapped/javax.enterprise.cdi-api" name="openengsb-wrapped-javax.enterprise.cdi-api" remote="openengsb" revision="master" />
+  <project path="wrapped/codeplex.newton.json" name="openengsb-wrapped-csharp-codeplex.newton.json" remote="openengsb" revision="master" />
+  <project path="wrapped/codeplex.fastjson" name="openengsb-wrapped-csharp-codeplex.fastjson" remote="openengsb" revision="master" />
+  <project path="wrapped/Apache.log4net" name="openengsb-wrapped-csharp-Apache.log4net" remote="openengsb" revision="master" />
+  <project path="wrapped/net.sourceforge.htmlunit" name="openengsb-wrapped-net.sourceforge.htmlunit" remote="openengsb" revision="master" />
 
   <project path="homepage" name="homepage" remote="openengsb" revision="master" />
 
