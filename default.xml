@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="openengsb" fetch="git://github.com/openengsb/" />
+  <remote  name="openengsb-labs" fetch="git://github.com/openengsb-labs/" />
+  <remote  name="ops4j" fetch="git://github.com/ops4j/" />
 
-  <!-- OpenEngSB Core -->
+  <!-- Third Party Libraries we develop -->
+  <project path="lib/liquibase" name="labs-liquibase" remote="openengsb-labs" revision="master" />
+  <project path="lib/delegation" name="labs-delegation" remote="openengsb-labs" revision="master"/>
+  <project path="lib/wicket" name="org.ops4j.pax.wicket" remote="ops4j" revision="master"/>
+
+  <!-- OpenEngSB Parts -->
   <project path="parents/root" name="openengsb-root" remote="openengsb" revision="master" />
   <project path="parents/domain" name="openengsb-domain-parent" remote="openengsb" revision="master" /> 
   <project path="parents/connector" name="openengsb-connector-parent" remote="openengsb" revision="master" />
