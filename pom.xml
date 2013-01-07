@@ -18,56 +18,61 @@
 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.openengsb</groupId>
-  <artifactId>openengsb-ueberpom</artifactId>
-  <packaging>pom</packaging>
-  <version>1</version>
-  <name>OpenEngSB :: Ueberpom</name>
+    <groupId>org.openengsb</groupId>
+    <artifactId>openengsb-ueberpom</artifactId>
+    <packaging>pom</packaging>
+    <version>1</version>
+    <name>OpenEngSB :: Ueberpom</name>
 
-  <description>
-    Project bundling up all and every project in the openengsb-manfiest
-  </description>
+    <description>
+        Project bundling up all and every project in the openengsb-manfiest
+    </description>
 
-  <url>http://openengsb.org</url>
+    <url>http://openengsb.org</url>
 
-  <licenses>
-    <license>
-      <name>Apache 2</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
-  <scm>
-    <connection>scm:git:git://github.com/openengsb/openengsb-manifest.git</connection>
-    <developerConnection>scm:git:git@github.com:openengsb/openengsb-manifest.git</developerConnection>
-    <url>http://github.com/openengsb/openengsb-manifest</url>
-  </scm>
+    <scm>
+        <connection>scm:git:git://github.com/openengsb/openengsb-manifest.git</connection>
+        <developerConnection>scm:git:git@github.com:openengsb/openengsb-manifest.git</developerConnection>
+        <url>http://github.com/openengsb/openengsb-manifest</url>
+    </scm>
 
-  <modules>
-    <!-- Tooling -->
-    <module>tooling/manual-builder-resources</module>
-    <module>tooling/assembly-builder-resources</module>
-    <!-- Core -->
-    <module>parents/root</module>
-    <module>parents/domain</module>
-    <module>parents/connector</module>
-    <module>parents/wrapped</module>
-    <module>api/framework</module>
-    <module>api/workflow</module>
-    <module>api/edb</module>
-    <module>api/ekb</module>
-    <module>api/ui</module>
-    <module>framework</module>
-    <!-- Loom -->
-    <module>loom/java</module>
-    <!-- Bundle -->
-    <module>bundle</module>
-  </modules>
+    <modules>
+        <!-- Third Party -->
+        <module>lib/delegation</module>
+        <module>lib/liquibase</module>
+        <module>lib/wicket</module>
+        <!-- Tooling -->
+        <module>tooling/manual-builder-resources</module>
+        <module>tooling/assembly-builder-resources</module>
+        <!-- Core -->
+        <module>parents/root</module>
+        <module>parents/domain</module>
+        <module>parents/connector</module>
+        <module>parents/wrapped</module>
+        <module>api/framework</module>
+        <module>api/workflow</module>
+        <module>api/edb</module>
+        <module>api/ekb</module>
+        <module>api/ui</module>
+        <module>framework</module>
+        <!-- Loom -->
+        <module>loom/java</module>
+        <!-- Bundle -->
+        <module>bundle</module>
+    </modules>
 
 </project>
 
