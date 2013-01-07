@@ -3,11 +3,14 @@
   <remote  name="openengsb" fetch="git://github.com/openengsb/" />
   <remote  name="openengsb-labs" fetch="git://github.com/openengsb-labs/" />
   <remote  name="ops4j" fetch="git://github.com/ops4j/" />
+  <remote  name="apache" fetch="git://github.com/apache/" />
 
   <!-- Third Party Libraries we develop -->
   <project path="lib/liquibase" name="labs-liquibase" remote="openengsb-labs" revision="master" />
-  <project path="lib/delegation" name="labs-delegation" remote="openengsb-labs" revision="master"/>
-  <project path="lib/wicket" name="org.ops4j.pax.wicket" remote="ops4j" revision="master"/>
+  <project path="lib/delegation" name="labs-delegation" remote="openengsb-labs" revision="master" />
+  <project path="lib/wicket" name="org.ops4j.pax.wicket" remote="ops4j" revision="master" />
+  <project path="lib/web" name="org.ops4j.pax.web" remote="ops4j" revision="master" />
+  <project path="lib/karaf" name="karaf" remote="apache" revision="trunk" />
 
   <!-- OpenEngSB Parts -->
   <project path="parents/root" name="openengsb-root" remote="openengsb" revision="master" />

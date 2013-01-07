@@ -54,6 +54,8 @@
         <module>lib/delegation</module>
         <module>lib/liquibase</module>
         <module>lib/wicket</module>
+        <module>lib/web</module>
+        <module>lib/karaf</module>
         <!-- Tooling -->
         <module>tooling/manual-builder-resources</module>
         <module>tooling/assembly-builder-resources</module>
