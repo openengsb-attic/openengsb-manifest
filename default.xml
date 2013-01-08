@@ -43,7 +43,8 @@
   <project path="wrapped/javax.enterprise.cdi-api" name="openengsb-wrapped-javax.enterprise.cdi-api" remote="openengsb" revision="master" />
   <project path="wrapped/net.sourceforge.htmlunit" name="openengsb-wrapped-net.sourceforge.htmlunit" remote="openengsb" revision="master" />
 
-  <project path="homepage" name="homepage" remote="openengsb" revision="master" />
+  <project path="homepage/old" name="homepage" remote="openengsb" revision="master" />
+  <project path="homepage/new" name="openengsb.github.com" remote="openengsb" revision="master" />
 
 </manifest>
 
