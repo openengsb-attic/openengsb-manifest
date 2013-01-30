@@ -32,7 +32,6 @@
   <project path="framework" name="openengsb-framework" remote="openengsb" revision="master" />
   
   <project path="tooling/assembly-builder-resources" name="openengsb-assembly-builder-resources" remote="openengsb" revision="master" />
-  <project path="tooling/hudsongen" name="hudsongen" remote="openengsb" revision="master" />
 
   <project path="loom/java" name="loom-java" remote="openengsb" revision="master" />
   <project path="loom/csharp" name="loom-csharp" remote="openengsb" revision="master" />
