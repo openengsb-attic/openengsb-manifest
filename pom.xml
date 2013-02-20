@@ -63,11 +63,6 @@
         <module>parents/domain</module>
         <module>parents/connector</module>
         <module>parents/wrapped</module>
-        <module>api/framework</module>
-        <module>api/workflow</module>
-        <module>api/edb</module>
-        <module>api/ekb</module>
-        <module>api/ui</module>
         <module>framework</module>
         <!-- Loom -->
         <module>loom/java</module>
