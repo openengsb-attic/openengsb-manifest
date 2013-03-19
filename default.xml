@@ -21,8 +21,6 @@
 
   <project path="bundle" name="openengsb" remote="openengsb" revision="master" />
   
-  <project path="test" name="openengsb-test" remote="openengsb" revision="master" />
-
   <project path="framework" name="openengsb-framework" remote="openengsb" revision="master" />
   
   <project path="tooling/assembly-builder-resources" name="openengsb-assembly-builder-resources" remote="openengsb" revision="master" />
